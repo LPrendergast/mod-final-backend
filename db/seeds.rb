@@ -11,4 +11,4 @@ Location.delete_all
 
 u1 = User.create(username: "Joe")
 
-l1 = Location.create(area: "On or near Moorgate", description: "Work place", longitude: 51.4537, latitude: -1.3456, user_id: u1.id)
+l1 = Location.create(area: "On or near Moorgate", description: "Work place", longitude: -0.13608291696732522, latitude: 51.518987934849385, user_id: u1.id)
