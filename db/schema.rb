@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(version: 2019_11_13_101032) do
   create_table "locations", force: :cascade do |t|
     t.string "area"
     t.string "description"
-    t.decimal "latitude"
-    t.decimal "longitude"
+    t.float "latitude"
+    t.float "longitude"
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
